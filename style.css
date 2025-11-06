@@ -1,0 +1,98 @@
+/*STYLE*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    /* Q2: Added gradient background */
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Q2: Added glossy effect */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #e62429;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search-section p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.hint {
+    font-size: 0.9em !important;
+    color: #ccc;
+    font-style: italic;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    flex: 1;
+    max-width: 400px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    /* Q2: Background color for search input */
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+#searchInput:focus {
+    outline: none;
+    /* Q2: Red glow effext when input is focused */
+    box-shadow: 0 0 10px rgba(230, 36, 41, 0.5);
+}
+
+#searchBtn {
+    padding: 12px 25px;
+    background: #e62429;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#searchBtn:hover {
+    background: #ff6b6b;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(230, 36, 41, 0.4);
+}
+
+.result-section {
+    margin-top: 30px;
+}
