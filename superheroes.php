@@ -63,6 +63,7 @@ $superheroes = [
   ], 
 ];
 
+/*Server-side sanitization*/
 //  Q3:  query parameter handling for search 
 if (isset($_GET['query']) && !empty(trim($_GET['query']))) {
     $query = strtolower(trim($_GET['query']));
