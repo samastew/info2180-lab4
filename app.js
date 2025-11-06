@@ -20,13 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 return response.text();
             })
             .then(data => {
-                // Q3: Only show alert for specific searches, not empty ones
-                if (query !== '') {
-                    alert(data);  // Keep alert only for specific searches
-                }
-                
                 displayResults(data, query);
             })
+            
             .catch(error => {
                 console.error('Error:', error);
                 // Q2: Keep alert for errors
