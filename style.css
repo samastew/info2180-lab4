@@ -96,3 +96,58 @@ h1 {
 .result-section {
     margin-top: 30px;
 }
+
+/* Q3: Styles for search results */
+.superhero-list {
+    list-style: none;
+    text-align: left;
+}
+
+.superhero-list li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #e62429;
+}
+
+.superhero-detail {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #e62429;
+}
+
+.superhero-detail h3 {
+    color: #e62429;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.superhero-detail h4 {
+    color: #ffd700;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.superhero-detail p {
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.error-message {
+    background: rgba(230, 36, 41, 0.2);
+    color: #ff6b6b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #e62429;
+}
+
+.loading {
+    text-align: center;
+    color: #ffd700;
+    font-size: 1.1em;
+}
